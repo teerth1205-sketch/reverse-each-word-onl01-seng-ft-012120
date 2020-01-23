@@ -8,7 +8,7 @@ return newArray.join(" ")
 end
 
 def reverse_each_word(string)
-   array = string.split( )
+   array = string.split()
    array.collect do |part|
      part.reverse
    end
